@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "pyro-risks"
+version = "0.1.0"
+description = ""
+authors = ["Alexis Cruveiller <alexis.cruveiller@gmail.com>"]
+readme = "README.md"
+packages = [{include = "pyro_risks"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+boto3 = "^1.28.45"
+ipykernel = "^6.25.2"
+python-dotenv = "^1.0.0"
+geopandas = "^0.13.2"
+tqdm = "^4.66.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
